@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context=".ui.activities.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageSplash"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_shop" />
+
+    <com.royyan1717.e_shopapplication.utils.ESTextViewBold
+        android:id="@+id/tv_shop_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50sp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/shop_name"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" >
+
+    </com.royyan1717.e_shopapplication.utils.ESTextViewBold>
+
+</RelativeLayout>
